@@ -1,21 +1,22 @@
-# Task 3: Sudoku Solver
+# Task 4: Banking System
 
 ## Features
-- Stores the puzzle in a 9×9 two-dimensional array.
-- Accepts user input; use `0` for empty cells.
-- Checks row, column, and 3×3 subgrid constraints.
-- Uses recursive backtracking to find a solution.
-- Reports invalid or unsolvable puzzles.
+- Uses `Customer`, `Account`, and `Transaction` classes.
+- Creates customers and unique account numbers during the program run.
+- Supports deposits, withdrawals, and transfers between accounts.
+- Prevents invalid amounts, overdrafts, and transfers to the same account.
+- Displays customer/account details and the five most recent transactions.
 
 ## Compile and run
 ```bash
-g++ -std=c++17 main.cpp -o sudoku
-./sudoku
+g++ -std=c++17 main.cpp -o banking
+./banking
 ```
 On Windows:
 ```bash
-g++ -std=c++17 main.cpp -o sudoku.exe
-sudoku.exe
+g++ -std=c++17 main.cpp -o banking.exe
+banking.exe
 ```
 
-Enter 9 rows, with 9 integers per row, separated by spaces.
+## Important note
+This beginner project stores data in memory while the program is running. Customer, account, balance, and transaction data are reset when the program closes. It is a learning project, not production banking software.
