@@ -1,0 +1,9 @@
+# Compiled C++ files
+*.exe
+*.out
+*.o
+*.obj
+
+# IDE/editor files
+.vscode/
+.idea/
