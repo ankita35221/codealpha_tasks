@@ -1,22 +1,46 @@
-# Task 4: Banking System
+# CodeAlpha C++ Programming Tasks
 
-## Features
-- Uses `Customer`, `Account`, and `Transaction` classes.
-- Creates customers and unique account numbers during the program run.
-- Supports deposits, withdrawals, and transfers between accounts.
-- Prevents invalid amounts, overdrafts, and transfers to the same account.
-- Displays customer/account details and the five most recent transactions.
+This repository contains three completed C++ programming tasks for the CodeAlpha internship.
 
-## Compile and run
-```bash
-g++ -std=c++17 main.cpp -o banking
-./banking
+## Completed tasks
+
+| Task | Project | Main concepts |
+|---|---|---|
+| 1 | CGPA Calculator | Structures, vectors, loops, input validation, weighted averages |
+| 3 | Sudoku Solver | 2D arrays, functions, recursion, backtracking |
+| 4 | Banking System | OOP, classes, objects, vectors, transactions |
+
+## Repository structure
+
+```text
+codealpha_tasks/
+├── Task1_CGPA_Calculator/
+│   ├── main.cpp
+│   └── README.md
+├── Task3_Sudoku_Solver/
+│   ├── main.cpp
+│   └── README.md
+├── Task4_Banking_System/
+│   ├── main.cpp
+│   └── README.md
+└── README.md
 ```
-On Windows:
+
+## Requirements
+- A C++ compiler such as g++ (C++17 or later).
+- A terminal or IDE such as Visual Studio Code.
+
+## How to run
+Open the folder of the task you want to run, then compile its `main.cpp`. For example:
+
 ```bash
-g++ -std=c++17 main.cpp -o banking.exe
-banking.exe
+g++ -std=c++17 main.cpp -o program
+./program
 ```
 
-## Important note
-This beginner project stores data in memory while the program is running. Customer, account, balance, and transaction data are reset when the program closes. It is a learning project, not production banking software.
+On Windows, run `program.exe` after compilation.
+
+## Notes
+- Each task has its own README with features and run instructions.
+- The CGPA calculator asks for previous CGPA and completed credits to calculate cumulative CGPA accurately.
+- The banking system is an educational console application; it does not persist data after exit.
